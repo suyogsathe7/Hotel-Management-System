@@ -1,0 +1,17 @@
+SELECT * FROM hotelmanagement.customer;
+
+INSERT INTO `hotelmanagement`.`customer` (`CustomerID`, `ReceptionID_FK`, `name`, `gender`, `City`, `Zip`, `IDType`, `IDNo`, `ContactNo`, `EmailID`, `Booking`) VALUES ('1', '1', 'SUYOG', 'M', 'BOSTON', '02120', 'PASSPORT', 'Z4127946', '8573995537', 'suyogsathe7@gmail.com', 'Online');
+INSERT INTO `hotelmanagement`.`customer` (`CustomerID`, `ReceptionID_FK`, `name`, `gender`, `City`, `Zip`, `IDType`, `IDNo`, `ContactNo`, `EmailID`, `Booking`) VALUES ('2', '1', 'ROHAN', 'M', 'CHICAGO', '02345', 'PASSPORT', 'Z4127945', '8573995536', 'rohan@gmail.com', 'Offline');
+INSERT INTO `hotelmanagement`.`customer` (`CustomerID`, `ReceptionID_FK`, `name`, `gender`, `City`, `Zip`, `IDType`, `IDNo`, `ContactNo`, `EmailID`, `Booking`) VALUES ('3', '1', 'CHINAMY', 'M', 'UTAH', '12345', 'PASSPORT', 'Z4127944', '8573995535', 'chinmay@gmail.com', 'Online');
+INSERT INTO `hotelmanagement`.`customer` (`CustomerID`, `ReceptionID_FK`, `name`, `gender`, `City`, `Zip`, `IDType`, `IDNo`, `ContactNo`, `EmailID`, `Booking`) VALUES ('4', '1', 'CHAITANYA', 'M', 'NEW JERSEY', '56748', 'PASSPORT', 'Z4127943', '8573995534', 'chaitanya@gmail.com', 'Online');
+INSERT INTO `hotelmanagement`.`customer` (`CustomerID`, `ReceptionID_FK`, `name`, `gender`, `City`, `Zip`, `IDType`, `IDNo`, `ContactNo`, `EmailID`, `Booking`) VALUES ('5', '1', 'MAYUR', 'M', 'MANCHESTER', '98756', 'PASSPORT', 'Z4127942', '8573995533', 'mayur@gmail.com', 'Offline');
+INSERT INTO `hotelmanagement`.`customer` (`CustomerID`, `ReceptionID_FK`, `name`, `gender`, `City`, `Zip`, `IDType`, `IDNo`, `ContactNo`, `EmailID`, `Booking`) VALUES ('6', '1', 'SAMARTH', 'M', 'HARTFORD', '45934', 'PASSPORT', 'Z4127941', '8573995532', 'samarth@gmail.com', 'Online');
+INSERT INTO `hotelmanagement`.`customer` (`CustomerID`, `ReceptionID_FK`, `name`, `gender`, `City`, `Zip`, `IDType`, `IDNo`, `ContactNo`, `EmailID`, `Booking`) VALUES ('7', '1', 'PRASHANT', 'M', 'TEXAS', '10927', 'PASSPORT', 'Z4127940', '8573995531', 'prashant@gmail.com', 'Online');
+INSERT INTO `hotelmanagement`.`customer` (`CustomerID`, `ReceptionID_FK`, `name`, `gender`, `City`, `Zip`, `IDType`, `IDNo`, `ContactNo`, `EmailID`, `Booking`) VALUES ('8', '1', 'PRIYESH', 'M', 'DAKOTA', '12764', 'PASSPORT', 'Z4127939', '8573995530', 'priyesh@gmail.com', 'Offline');
+INSERT INTO `hotelmanagement`.`customer` (`CustomerID`, `ReceptionID_FK`, `name`, `gender`, `City`, `Zip`, `IDType`, `IDNo`, `ContactNo`, `EmailID`, `Booking`) VALUES ('9', '1', 'VEDANT', 'M', 'MAINE', '18946', 'PASSPORT', 'Z4127938', '8573995529', 'vedant@gmail.com', 'Online');
+INSERT INTO `hotelmanagement`.`customer` (`CustomerID`, `ReceptionID_FK`, `name`, `gender`, `City`, `Zip`, `IDType`, `IDNo`, `ContactNo`, `EmailID`, `Booking`) VALUES ('10', '1', 'HARSH', 'M', 'NEVADA', '18272', 'PASSPORT', 'Z4127937', '8573995528', 'harsh@gmail.com', 'Online');
+INSERT INTO `hotelmanagement`.`customer` (`CustomerID`, `ReceptionID_FK`, `name`, `gender`, `City`, `Zip`, `IDType`, `IDNo`, `ContactNo`, `EmailID`, `Booking`) VALUES ('11', '1', 'YOGINI', 'F', 'MUMBAI', '12675', 'PASSPORT', 'Z4127936', '8573995527', 'yogini@gmail.com', 'Online');
+
+truncate table hotelmanagement.customer;
+
+delete from `hotelmanagement`.`customer` where CustomerID = 6; 
